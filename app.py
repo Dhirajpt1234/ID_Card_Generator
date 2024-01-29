@@ -9,6 +9,8 @@ from PIL import Image
 app = Flask(__name__)
 
 
+# //here i have added some notes or comments
+
 @app.route('/')
 def form():
     return render_template('form.html')
